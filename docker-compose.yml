@@ -5,7 +5,6 @@ services:
     ports:
       - "8545:8545"
     command:
-      - --account="0xe72ae3bE6eaC70d96c7645D6f2040aEfdCCfcEe5,1000000000000000000000" # Account with 1000 ETH
+      - --account="0xe72ae3bE6eaC70d96c7645D6f2040aEfdCCfcEe5,0xe68efe6592fd68ef5362e12a6588aa9bc5e018a1363b9a5678d6d2068cb884f0,1000000000000000000000"
       - --blockTime=1
-    environment:
-      - HARD_CODED_TX="Sample Transaction Data"
+
